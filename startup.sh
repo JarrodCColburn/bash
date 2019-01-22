@@ -1,4 +1,4 @@
-yes | sudo  apt-get install zsh
+yes | sudo apt-get install zsh man-db
 
 sudo chsh -s /bin/zsh `whoami`
 
