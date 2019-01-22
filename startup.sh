@@ -25,3 +25,5 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 yes | sudo apt-get install apt-transport-https
 yes | sudo apt-get update
 yes | sudo apt-get install code
+
+yes | sudo apt-get install build-essential curl file git
