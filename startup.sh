@@ -1,6 +1,9 @@
 yes | sudo  apt-get install zsh
+
 sudo chsh -s /bin/zsh `whoami`
-curl -L git.io/antigen > $HOME/antigen.zsh
+
+curl -L git.io/antigen > $HOME/.antigen.zsh
+
 echo "#antigen
 source $HOME/.antigen.zsh 
 # Load the oh-my-zsh's library.
